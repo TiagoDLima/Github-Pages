@@ -1,0 +1,51 @@
+body{
+    color: white;
+    background: linear-gradient(270deg, #062273 -17.69%, #021265 -17.67%, #1561A8 48.31%, #072045 111.39%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main{
+
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+a{
+
+    display: flex;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: greenyellow;
+}
+
+a:hover{
+
+    background-color: rgba(172, 255, 47, 0.452);
+    color: darkblue;
+}
+
+#voltar{
+    border: 2px solid greenyellow;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+}
+
+@media screen and ( max-width:600px ){
+
+    
+}

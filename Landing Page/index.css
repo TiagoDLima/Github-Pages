@@ -1,0 +1,143 @@
+body{
+    
+    width: auto;
+    color: white;
+    background: linear-gradient(270deg, #062273 -17.69%, #021265 -17.67%, #1561A8 48.31%, #072045 111.39%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color:greenyellow;
+    transition: 0.3s;
+}
+
+
+
+#botao{
+    border: 2px solid darkblue;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #00ff55;
+    box-shadow: 0px 0px 10px #1eff00;
+}
+
+
+#botao:hover{
+
+    background-color: darkblue;
+    color: white;
+ 
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+h1{
+    font-size: 56px;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Lucida';
+}
+
+img{
+
+    width: 400px;    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;  
+}
+
+textarea{
+    margin-top: 15px;
+    border-radius: 7px;
+}
+
+form [type = "submit"]{
+    height:50%;
+    width:50%;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+}
+
+form[type = "submit"]:hover{
+    cursor: pointer;
+}
+
+form button{
+
+    border: none;
+    margin-top: 15px;
+    border-radius: 15px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    background: transparent;
+    color: #f5f5f5;
+    transition: all 1s;
+    margin-bottom: 5px;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+}
+
+/* Responsivo para celular */ 
+@media screen and ( max-width:600px ){
+
+    body{
+        padding: 20px;
+    }
+    
+        header{
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+            line-height: 80px;
+        }
+        h1{
+            font-size: 36px;
+            width: 100%;
+        }
+        img{
+            width:300px;
+            align-items: flex-start;
+        }
+        p{
+            max-width: 300px;
+        }
+        main{
+            width: 100%;
+            flex-direction: column;
+            align-content:center;
+        }
+        
+        
+}
